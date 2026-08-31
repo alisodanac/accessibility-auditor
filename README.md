@@ -1,5 +1,5 @@
-<!--
-This README describes thA development-time accessibility auditor for Flutter apps, inspired by axe-core.
+accessibility_auditor
+A development-time accessibility auditor for Flutter apps, inspired by axe-core.
 It runs inside your app while you build it, walks Flutter's own semantics tree, and reports accessibility violations as you navigate — no external tooling, no separate audit pass, no waiting for a screen reader test at the end of the sprint.
 Status: early development. The rule engine and public API are still taking shape and will change. Not yet published on pub.dev. Issues and ideas are welcome.
 Why this exists
@@ -57,43 +57,4 @@ Dart SDK ^3.5.0
 Flutter >=3.24.0
 Contributing
 The project is early enough that design feedback is worth more than code. If you have run into an accessibility problem in a Flutter app that a rule here could have caught, open an issue and describe it — that is the most useful contribution right now.
-License
-See LICENSE.
-Built by Ali Sodan.e package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
-
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/tools/pub/writing-package-pages).
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/to/develop-packages).
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
-
-## Features
-
-TODO: List what your package can do. Maybe include images, gifs, or videos.
-
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
-
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
-```dart
-const like = 'sample';
-```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+Built by Ali Sodan.
